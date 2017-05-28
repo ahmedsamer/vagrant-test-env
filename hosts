@@ -1,0 +1,7 @@
+# Example to stage and test on multiable Vagrant machines
+[local]
+Ubuntu12  ansible_ssh_host=127.0.0.1  ansible_ssh_port=1122  ansible_ssh_user=vagrant  ansible_ssh_private_key_file=/root/.vagrant.d/insecure_private_key
+Ubuntu14  ansible_ssh_host=127.0.0.1  ansible_ssh_port=2222  ansible_ssh_user=vagrant  ansible_ssh_private_key_file=/root/.vagrant.d/insecure_private_key
+Ubuntu16  ansible_ssh_host=127.0.0.1  ansible_ssh_port=3322  ansible_ssh_user=vagrant  ansible_ssh_private_key_file=/root/.vagrant.d/insecure_private_key
+Centos6   ansible_ssh_host=127.0.0.1  ansible_ssh_port=4422  ansible_ssh_user=vagrant  ansible_ssh_private_key_file=/root/.vagrant.d/insecure_private_key
+Centos7   ansible_ssh_host=127.0.0.1  ansible_ssh_port=5522  ansible_ssh_user=vagrant  ansible_ssh_private_key_file=/root/.vagrant.d/insecure_private_key
